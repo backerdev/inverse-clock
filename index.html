@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>The Clock</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center text-center vh-100"
+        >
+          <h2>Our Time <span class="heading" id="heading"></span></h2>
+          <p class="my-4 w-50">
+            The countdown clock stands as an ideal and dynamic for monitoring
+            our day, efficient way to manage time. Its advantages lie not only
+            in its simplicity but in its ability to foster productivity,
+            mindfulness, and a heightened sense of urgency.
+          </p>
+          <span
+            class="clock-container d-flex flex-column justify-content-between"
+          >
+            <span
+              class="clock fw-bold fs-1 text-primary xl-text"
+              id="clock"
+            ></span>
+            <span class="lead align-self-end d-block w-100 mb-2 fs-4"
+              >Balance
+            </span>
+          </span>
+          <span class="original fw-bold fs-4 text-white" id="original"></span>
+          <span class="align-self-end d-block w-100 mb-2 fs-6"
+            >Current Time
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
