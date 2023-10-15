@@ -1,7 +1,16 @@
-.xl-text {
-  font-size: 82px !important;
-}
-
 .heading {
   font-size: 14px !important;
+}
+
+.col-md-4 {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.clock-container {
+  width: 250px;
+}
+
+.clock {
+  font-size: 6rem !important;
 }
